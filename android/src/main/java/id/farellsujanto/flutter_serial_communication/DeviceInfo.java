@@ -23,7 +23,7 @@ class DeviceInfo {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             this.manufacturerName = device.getManufacturerName();
             this.productName = device.getProductName();
-            // this.serialNumber = device.getSerialNumber();
+            this.serialNumber = device.getSerialNumber();
         } else {
             this.manufacturerName = "";
             this.serialNumber = "";
